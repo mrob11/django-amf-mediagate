@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='django-amf-mediagate',
-    version='0.1.0',
+    version='0.1.1',
     author='Mike Robinson',
     author_email='mike.robinson.81@gmail.com',
     packages=['mediagate',],
