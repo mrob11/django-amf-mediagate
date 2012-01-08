@@ -9,7 +9,7 @@ setup(
     url='http://github.com/mike360/django-amf-mediagate/',
     license='BSD',
     description='A wrapper app for PyAMF to provide a gateway for sending media files to Flash apps.',
-    long_description=open('README').read(),
+    long_description=open('README.md').read(),
     install_requires=[
         "Django >= 1.2",
         "PyAMF == 0.6.1",
