@@ -1,7 +1,7 @@
-from django.conf.urls.defaults import patterns
+from django.conf.urls import patterns
 
-urlpatterns = patterns('mediagate.amfgateway', 
-    # AMF Gateway
+
+urlpatterns = patterns(
+    'mediagate.amfgateway',
     (r'^amf/', 'mediagateGateway'),
 )
-
